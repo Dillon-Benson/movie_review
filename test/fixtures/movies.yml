@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  plot: MyText
+  picture_url: MyString
+  likes: 1
+  dislike: 1
+
+two:
+  name: MyString
+  plot: MyText
+  picture_url: MyString
+  likes: 1
+  dislike: 1
