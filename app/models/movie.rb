@@ -1,3 +1,4 @@
 class Movie < ActiveRecord::Base
-  attr_accessible :dislike, :likes, :name, :picture_url, :plot
+  has_many :comments
+  attr_accessible :dislikes, :likes, :name, :picture_url, :plot
 end

@@ -1,3 +1,4 @@
 class Review < ActiveRecord::Base
-  attr_accessible :content, :dislikes, :like, :username
+  belongs_to :movie
+  attr_accessible :content, :dislikes, :likes, :username, :movie_id
 end
