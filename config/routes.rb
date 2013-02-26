@@ -1,4 +1,7 @@
 MovieReview::Application.routes.draw do
+  get "movies/index"
+  get "movies/browse"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

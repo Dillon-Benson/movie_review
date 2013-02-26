@@ -1,0 +1,1 @@
+2013/02/26 03:50:18 [error] 32915#0: *4 "/Users/dillon/repos/movie_review/spec/controllers/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "HEAD / HTTP/1.1", host: "0.0.0.0"
